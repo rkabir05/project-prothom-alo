@@ -1,0 +1,167 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+    background: white;
+    font-size: 14px;
+    color: black;
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+    margin: auto;
+    width: 1200px;
+}
+
+.h-right {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.h-raight-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid;
+    margin-right: 12px;
+}
+
+.h-logo {
+    width: 30%;
+}
+
+.h-logo img {
+    max-width: 100%;
+}
+
+.h-part-text h2 {
+    font-size: 12px;
+}
+
+.h-part-video {
+    width: 30%;
+}
+
+.h-part-text {
+    width: 65%;
+}
+
+.h-raight-part:last-child {
+    border-right: none;
+}
+
+.dropdown-main-box-shadow{
+  width: cover;
+    padding: 15px 0 10px 0;
+    background: #eee;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), inset 0px 25px 0px rgba(255, 255, 255, 0.3);
+    height: 60px;
+    overflow: hidden;
+    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+}
+
+.dropdown-main-box {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-top: 20px;
+    margin: auto;
+}
+}
+
+.d-left-part {
+    width: 50%;
+}
+
+.d-right-part {
+    width: 40%;
+}
+
+.d-left-part>nav>ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.d-left-part>nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.d-right-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-line {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+.d-eng {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-eng-logo {
+    margin-right: 10px;
+}
+
+.d-eng-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.d-scarch {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-searc-option {
+    margin-right: 10px;
+}
+
+.d-search-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.d-account>nav>ul {
+    list-style: none;
+}
+
+.d-account>nav>ul>li>a {
+    text-decoration: none;
+        color: black;
+}
+
+
+.d-e-paper {
+    display: flex;
+}
+
+.d-e-logo {
+    margin-right: 10px;
+}
+
+.d-e-text>a {
+    text-decoration: none;
+    color: black;
+}
+
+.d-left-part>nav>ul>li {
+    margin-right: 32px;
+}
+
