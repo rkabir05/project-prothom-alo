@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -19,6 +19,7 @@ main {
     justify-content: space-between;
     margin: auto;
     width: 1200px;
+    margin-bottom: 2px;
 }
 
 .h-right {
@@ -59,16 +60,16 @@ main {
     border-right: none;
 }
 
-.dropdown-main-box-shadow{
-  width: cover;
-    padding: 15px 0 10px 0;
+.dropdown-main-box-shadow {
+    width: cover;
     background: #eee;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), inset 0px 25px 0px rgba(255, 255, 255, 0.3);
-    height: 60px;
     overflow: hidden;
     border-bottom: 2px solid black;
     border-top: 1px solid black;
+
 }
+
 
 .dropdown-main-box {
     display: flex;
@@ -165,3 +166,137 @@ main {
     margin-right: 32px;
 }
 
+
+
+.dropdown-main-box {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+footer#footer {
+    width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.f-logo {
+    width: 150px;
+    height: auto;
+}
+
+.f-menue>nav>ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.f-menue>nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.f-menue>nav>ul>li {
+    margin-right: 117px;
+    margin-bottom: 37px;
+}
+
+.f-menue>nav>ul>li {
+    margin-right: 117px;
+    margin-bottom: 37px;
+}
+
+
+.f-logo {
+    margin-bottom: 14px;
+}
+
+.f-menue>nav>ul>li {
+    margin-right: 117px;
+    margin-bottom: 37px;
+}
+
+
+.f-logo {
+    margin-bottom: 14px;
+    width: 200px;
+}
+
+.f-logo img {
+    max-width: 100%;
+}
+
+.f-flow-and-download {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    border-bottom: 1px solid #c4c1c0;
+
+}
+
+.f-flow {
+    width: 30%;
+}
+
+.f-social-media {
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.f-social-media>nav>ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.f-flow-bangla {
+    margin-bottom: 15px;
+}
+
+i.fa-brands.fa-facebook {
+    color: #1877F2;
+    font-size: 25px;
+}
+
+
+i.fa-brands.fa-square-x-twitter {
+    color: #26a7de;
+    font-size: 25px;
+}
+
+i.fa-brands.fa-square-instagram {
+    color: #833AB4;
+    font-size: 25px;
+}
+
+i.fa-brands.fa-youtube {
+    color: #FF0000;
+    font-size: 25px;
+}
+
+.f-download {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.f-apple,
+.f-google {
+    width: 45%;
+}
+
+.f-google img,
+.f-apple img {
+    max-width: 100%;
+    opacity: 50%;
+}
+
+
+.f-logo-and-mene {
+    border-top: 1px solid #c4c1c0;
+    border-bottom: 1px solid #c4c1c0;
+}
