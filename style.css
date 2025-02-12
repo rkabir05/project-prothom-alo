@@ -181,6 +181,8 @@ footer#footer {
     width: 1200px;
     margin: auto;
     margin-top: 100px;
+    font-size: 12px;
+    color: black;
 }
 
 .f-logo {
@@ -218,6 +220,7 @@ footer#footer {
 .f-menue>nav>ul>li {
     margin-right: 117px;
     margin-bottom: 37px;
+    width: 118px;
 }
 
 
@@ -299,4 +302,61 @@ i.fa-brands.fa-youtube {
 .f-logo-and-mene {
     border-top: 1px solid #c4c1c0;
     border-bottom: 1px solid #c4c1c0;
+}
+
+
+.f-social-media>nav>ul>li {
+    margin-right: 2pc;
+}
+
+
+.p-line {
+    text-align: center;
+    border-bottom: 1px solid #c4c1c0;
+}
+
+.p-line>nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.p-line>nav>ul>li {
+    margin: 10px;
+    
+}
+
+.p-line>nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+.p-line>nav>ul>li>a::before {
+    content: ' \2022';
+    padding: 10px;
+}
+
+.rights-and-editor {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid #c4c1c0;
+
+}
+
+.right {
+    margin-right: 10px;
+}
+
+.editor {
+    margin-left: 10px;
+    border-left: 1px solid #c4c1c0;
+    padding-left: 16px;
+}
+
+
+.p-line>nav>ul>li>a:hover,
+.f-menue>nav>ul>li>a:hover,
+.d-left-part>nav>ul>li>a:hover {
+    color: red;
+    transition: all 0.5s;
 }
