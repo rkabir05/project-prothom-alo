@@ -368,19 +368,20 @@ i.fa-brands.fa-youtube {
 }
 
 .item-left-box {
-    width: 22%;
+    width: 23%;
+    border-right: 2px solid #c4c1c0;
+    padding-right: 15px;
 }
 
 .item-lead {
     width: 50%;
-    border-left: 2px solid #c4c1c0;
-    border-right: 2px solid #c4c1c0;
-    padding: 0 10px;
-
 }
 
 .item-right {
     width: 23%;
+    border-left: 2px solid #c4c1c0;
+        padding-left: 15px;
+
 }
 
 .item-lead-1st-img-heading {
@@ -403,8 +404,8 @@ i.fa-brands.fa-youtube {
 .item-lead-1st-heading a {
     text-decoration: none;
     color: black;
-    font-size: 12px;
-    margin-bottom: 10px;
+    font-size: 23px;
+    margin-bottom: 16px;
 }
 
 .item-lead-1st-img img,
@@ -551,5 +552,15 @@ i.fa-brands.fa-youtube {
 }
 
 .lead-heading-img-box {
-     border-bottom: 1px solid #c4c1c0
+     border-bottom: 1px solid #c4c1c0;
+}
+
+
+.h-part-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.item-lead-1st-news {
+    margin-top: 33px;
 }
