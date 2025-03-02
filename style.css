@@ -645,3 +645,48 @@ i.fa-brands.fa-youtube {
 .lead-4-item-heading {
     margin-bottom: 10px;
 }
+
+
+
+
+.fiture-item-main-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
+}
+
+
+.fiture-item {
+    width: 22%;
+}
+
+.fiture-item-img img {
+    max-width: 100%;
+    
+}
+  
+.fiture-item-img {
+    height: 100px;
+    overflow: hidden;
+
+}
+
+.fiture-item-img {
+    position: absolute;
+    width: 275px;
+}
+
+.fiture-item-title {
+    position: relative;
+
+}
+
+
+.fiture-item-title h2 {
+    text-decoration: none ;
+}
+
+.fiture-item-title {
+    padding-top: 40px;
+    padding-left: 25px;
+}
