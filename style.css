@@ -653,6 +653,9 @@ i.fa-brands.fa-youtube {
     display: flex;
     justify-content: space-between;
     margin: 30px 0 30px 0;
+    background: wheat;
+    height: 130px;
+    padding: 15px;
 }
 
 
@@ -684,9 +687,46 @@ i.fa-brands.fa-youtube {
 
 .fiture-item-title h2 {
     text-decoration: none ;
+    color: yellowgreen;
+}
+
+.fiture-item-title h3 {
+    color: wheat;
 }
 
 .fiture-item-title {
     padding-top: 40px;
     padding-left: 25px;
+}
+
+
+
+.apnar-box,
+.four-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.four-box-single {
+    width: 22%;
+}
+
+.four-box-single img {
+    max-width: 100%;
+}
+
+.four-box-single h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.four-box-single h2 {
+    border-top: 15px;
+    border-bottom: 15px;
+}
+
+.apnar-box-text a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
 }
