@@ -699,16 +699,26 @@ i.fa-brands.fa-youtube {
     padding-left: 25px;
 }
 
+.apnar-box {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
 
-
-.apnar-box,
 .four-box {
     display: flex;
     justify-content: space-between;
 }
 
 .four-box-single {
-    width: 22%;
+    width: 25%;
+    padding: 0 15px;
+    border-right: 1px solid gray;
+    padding-border: 15px;
+}
+
+.four-box-single:last-child {
+    border-right: none;
 }
 
 .four-box-single img {
@@ -729,4 +739,133 @@ i.fa-brands.fa-youtube {
     text-decoration: none;
     color: black;
     margin-bottom: 20px;
+}
+
+i.fa-solid.fa-greater-than {
+    margin-left: 20px;
+    color: #833AB4;
+}
+
+
+
+.two-box-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-box {
+    width: 25%;
+}
+
+.play-box {
+    width: 70%;
+}
+
+.play-two-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.play-left-lead {
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.play-right {
+    width: 30%;
+}
+
+.play-left-img img {
+    max-width: 100%;
+}
+
+.play-left-img img {
+    max-width: 100%;
+}
+
+.play-left-img {
+    height: 300px;
+    overflow: hidden;
+}
+
+.single-box>nav>ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.single-box>nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.two-box-main {
+    margin-top: 30px;
+}
+
+.play,
+.single-box {
+    border-top: 4px solid gray;
+    padding-top: 10px;
+}
+
+.play {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.play-text {
+    margin-left: 20px;
+}
+
+.play {
+    margin-bottom: 14px;
+}
+
+
+.play-right-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin-top: 15px;
+}
+
+
+.play-right-heading {
+    width: 55%;
+}
+
+.play-right-img {
+    width: 35%;
+}
+
+.play-right-img img {
+    max-width: 100%;
+}
+
+.p-two-box {
+    border-top: 1px solid black;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-two-box-right,
+.p-two-box-left {
+    width: 45%;
+    overflow: hidden;
+}
+
+.play-left-heading,
+.play-left-img {
+    margin-bottom: 15px;
+}
+
+.play-left {
+    width: 65%;
 }
