@@ -782,9 +782,7 @@ i.fa-solid.fa-greater-than {
     max-width: 100%;
 }
 
-.play-left-img img {
-    max-width: 100%;
-}
+
 
 .play-left-img {
     height: 300px;
@@ -879,11 +877,67 @@ i.fa-solid.fa-greater-than {
 .bangladesh-text-and-geterden {
     display: flex;
     justify-content: start;
-    border-top: 2px solid gray;
-    margin-top: 30px;
+    /* border-top: 2px solid gray; */
+    margin-top: 20px;
 }
 
 .amar-elakar-khabor-main-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+.play-left-img {
+    position: relative;
+}
+
+.play-left-heading h2 {
+    position: absolute;
+    top: 253px;
+    left: 40px;
+    color: white;
+}
+
+#grad1 {
+    height: 242px;
+    background: rgb(2,0,36);
+    background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(1,4,6,0.25) 34%, rgba(13,30,41,0.006039915966386533) 62%);
+    width: 419px;
+}
+
+.amar-elakar-khabor-box {
+    display: flex;
+    justify-content: left;
+}
+
+.amar-symble {
+    margin-right: 10px;
+}
+
+select#upozila\>\a \ \ \ \ \ \ \ \ \ \ \ \ \ \ \<\!--\ \<option\ value\=,
+select#dist,
+select#division {
+    font-size: 16px;
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+
+.form-input {
+    padding: 20p;
+}
+
+.find-box {
+    display: flex;
+    justify-content: left;
+}
+
+.search-option {
+    margin-right: 10px;
+}
+
+.bangladesh-main {
+    border-top: 4px solid gray;
+    margin-top: 29px;
 }
