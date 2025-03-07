@@ -869,3 +869,21 @@ i.fa-solid.fa-greater-than {
 .play-left {
     width: 65%;
 }
+
+}
+
+.fiture-item-title>a {
+    text-decoration: none;
+}
+
+.bangladesh-text-and-geterden {
+    display: flex;
+    justify-content: start;
+    border-top: 2px solid gray;
+    margin-top: 30px;
+}
+
+.amar-elakar-khabor-main-box {
+    display: flex;
+    justify-content: space-around;
+}
