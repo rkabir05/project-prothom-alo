@@ -772,6 +772,7 @@ i.fa-solid.fa-greater-than {
     border-left: 1px solid gray;
     padding-left: 10px;
     padding-right: 10px;
+    
 }
 
 .play-right {
@@ -859,10 +860,10 @@ i.fa-solid.fa-greater-than {
     overflow: hidden;
 }
 
-.play-left-heading,
+/* .play-left-heading,
 .play-left-img {
     margin-bottom: 15px;
-}
+} */
 
 .play-left {
     width: 65%;
@@ -886,6 +887,8 @@ i.fa-solid.fa-greater-than {
     justify-content: space-between;
     margin-top: 20px;
     align-items: center;
+    background: skyblue;
+    padding: 20px 25px;
 }
 
 
@@ -893,19 +896,24 @@ i.fa-solid.fa-greater-than {
     position: relative;
 }
 
-.play-left-heading h2 {
+.play-left-heading {
     position: absolute;
-    top: 253px;
-    left: 40px;
+    bottom: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, .05), black);
     color: white;
+    width: 100%;
 }
 
-#grad1 {
+.play-left-heading h2 {
+    padding: 250px 10px 30px 30px ;
+}
+
+
     height: 242px;
     background: rgb(2,0,36);
     background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(1,4,6,0.25) 34%, rgba(13,30,41,0.006039915966386533) 62%);
     width: 419px;
-}
+
 
 .amar-elakar-khabor-box {
     display: flex;
@@ -940,4 +948,96 @@ select#division {
 .bangladesh-main {
     border-top: 4px solid gray;
     margin-top: 29px;
+}
+
+.amar-elakar-khabor-box {
+    display: flex;
+}
+
+.amardesh-three-box-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amar-left-box {
+    width: 36%;
+}
+
+
+.amar-right-box {
+    width: 25%;
+}
+
+.amardesh-three-box-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.amar-left-box {
+    width: 35%;
+}
+
+.amar-middle-box {
+    width: 41%;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 0 10px;
+}
+
+.amar-right-box {
+    width: 22%;
+}
+
+.amar-lead-news img {
+    max-width: 100%;
+}
+
+.amarmiddle-two-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amarmiddle-heading {
+    width: 45%;
+}
+
+.amarmiddle-img {
+    width: 53%;
+    margin-bottom: 10px;
+}
+
+.amarright-img img,
+.amarmiddle-img img {
+    max-width: 100%;
+}
+
+.amarright-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.amarright-heading {
+    width: 79%;
+}
+
+.amarright-img {
+    width: 45%;
+}
+
+
+
+.amarmiddle-heading h3 {
+    line-height: 40px;
+    font-size: 24px;
+
+}
+
+.amar-middle-item {
+    margin-bottom: 20px;
+}
+
+.amar-lead-heading h2 {
+    margin: 14px 0;
 }
