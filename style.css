@@ -703,6 +703,7 @@ i.fa-brands.fa-youtube {
     display: flex;
     justify-content: left;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .four-box {
@@ -1020,6 +1021,7 @@ select#division {
 
 .amarright-heading {
     width: 79%;
+    margin-right: 10px;
 }
 
 .amarright-img {
@@ -1029,8 +1031,8 @@ select#division {
 
 
 .amarmiddle-heading h3 {
-    line-height: 40px;
-    font-size: 24px;
+    line-height: 35px;
+    font-size: 25px;
 
 }
 
@@ -1040,4 +1042,63 @@ select#division {
 
 .amar-lead-heading h2 {
     margin: 14px 0;
+    line-height: 30px;
+}
+
+.world-main-box {
+    border-top: 2px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.world-third-item, 
+.world-sec-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.world-first-item {
+    width: 41%;
+    border-right: 2px solid gray;
+    padding-right: 15px;
+}
+
+.world-right-box {
+    width: 57%;
+}
+
+
+.world-sec-item-pic img,
+.world-first-img img,
+.world-sec-item-pic img {
+    max-width: 100%;
+}
+
+.world-third-item,
+.world-sec-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.world-sec-item-pic-heading {
+    width: 49%;
+    border-right: 2px solid gray;
+    padding-right: 10px;
+}
+
+.world-sec-item-pic-heading:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+.world-two-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.world-third-item {
+    border-top: 2px solid gray;
+    padding-top: 15px;
+    margin-top: 20px;
 }
