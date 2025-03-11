@@ -1045,12 +1045,27 @@ select#division {
     line-height: 30px;
 }
 
-.binodon-main-box,
+
 .world-main-box {
     border-top: 3px solid gray;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/* .binodon-main-box-item, {
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+
+
+
+.jibonjapon-main-box,
+.binodon-main-box {
+    border-top: 3px solid gray;
+    margin-top: 25px;
+}
+
+
 
 .world-third-item, 
 .world-sec-item {
@@ -1117,5 +1132,85 @@ select#division {
 .binodon-middle,
 .binodon-right,
 .binodon-left {
-    width: 30%;
+    width: 32%;
+}
+
+
+.binodon-lead-img img,
+.binodon-right-img img,
+.binodon-left-img img {
+    max-width: 100%;
+}
+
+
+.binodon-right-main,
+.binodon-left-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.binodon-right-head,
+.binodon-right-img,
+.binodon-left-img,
+.binodon-left-heading {
+    width: 45%;
+}
+
+
+.binodon-lead-head a,
+.binodon-right-head a,
+.binodon-left-heading a {
+    text-decoration: none;
+    color: black;
+}
+
+.binodon-lead-head {
+    margin: 15px 0;
+}
+
+.binodon-middle {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.jibonjapon-four-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jibonjapon-fourth-item,
+.jibonjapon-third-item,
+.jibonjapon-second-item,
+.jibonjapon-first-item {
+    width: 23%;
+}
+
+.jibonjapon-img img {
+    max-width: 100%;
+}
+
+.jibonjapon-head a {
+    text-decoration: none;
+    color: black;
+}
+
+.jibonjapon-head {
+    margin: 10px 0;
+}
+
+.jibonjapon-second-item {
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    padding-right: 2% ;
+    padding-left: 2%;
+}
+
+.jibonjapon-third-item {
+    border-right: 1px solid gray;
+    padding-right: 2% ;
+
 }
