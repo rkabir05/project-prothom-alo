@@ -1045,8 +1045,9 @@ select#division {
     line-height: 30px;
 }
 
+.binodon-main-box,
 .world-main-box {
-    border-top: 2px solid gray;
+    border-top: 3px solid gray;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -1061,7 +1062,7 @@ select#division {
 .world-first-item {
     width: 41%;
     border-right: 2px solid gray;
-    padding-right: 15px;
+    padding-right: 2%;
 }
 
 .world-right-box {
@@ -1101,4 +1102,20 @@ select#division {
     border-top: 2px solid gray;
     padding-top: 15px;
     margin-top: 20px;
+}
+
+.world-sec-item-heading a {
+    text-decoration: none;
+    color: black;
+}
+
+.binodon-main-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.binodon-middle,
+.binodon-right,
+.binodon-left {
+    width: 30%;
 }
