@@ -1325,3 +1325,136 @@ i.fa-solid.fa-circle {
 .motamot-right-text {
     width: 75%;
 }
+
+.world-first-heading {
+    margin: 15px 0;
+}
+
+.ektuthamun-halfashion-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.hall-fashion-main-box,
+.ektu-thamun-main-box {
+    width: 48%;
+    margin-bottom:15px ;
+}
+
+
+
+.ektuthamun-right-img img,
+.hallfasion-img img,
+.ektuthamun-img img,
+.hallfashion-logo img,
+.hallfasion-item-left img {
+    max-width: 100%;
+}
+
+
+.hallfasion-item-left {
+    width: 55%;
+}
+
+.hallfashion-item-right {
+    width: 40%;
+}
+
+.ektuthamun-left {
+    width: 55%;
+}
+
+.ektuthamun-right {
+    width: 40%;
+}
+
+.hallfashion-main, 
+.ektuthamun-left-right {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.ektuthamun-logo {
+    background: #ebedef;
+    padding: 4%;
+    text-align: center;
+    border-top: 4px solid #5d6d7e;
+    border-bottom: 2px solid #5d6d7e;
+}
+
+.ektuthamun-logo a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.halfasion-right-head-news,
+.ektuthamun-right-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hallfasion-head,
+.ektuthamun-right-head {
+    width: 55%;
+}
+
+.hallfasion-img,
+.ektuthamun-right-img {
+    width: 40%;
+}
+
+.ektuthamun-heading a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.hallfasion-item-img,
+.ektuthamun-img {
+    margin-bottom: 10px;
+}
+
+.ektuthamun-right-head {
+    font-size: 12px;
+}
+
+.hallfasion-item-left a,
+.ektuthamun-right-head a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.hallfasion-head {
+    font-size: 10px;
+}
+
+.hallfasion-head a {
+    text-decoration: none;
+    color: black;
+}
+
+.ektuthamun-right-item,
+.halfasion-right-head-news {
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    align-items: center;
+}
+
+.halfasion-right-head-news:last-child,
+.ektuthamun-right-item:last-child {
+    border: none;
+}
+
+.hall-fashion-main-box {
+    background: antiquewhite;
+}
+
+.hallfashion-main {
+    padding: 2%;
+    border-bottom: 1px solid #f4d03f;
+}
